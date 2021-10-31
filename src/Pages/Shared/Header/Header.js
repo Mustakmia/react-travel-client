@@ -2,16 +2,18 @@ import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import useAuth from "../../../Hooks/useAuth";
+import './Header'
 
 const Header = () => {
-  const {user,logOut} = useAuth()
+  const { user, logOut } = useAuth()
 
   return (
     <div className="mb-5">
       <Navbar expand="lg ">
         <Container>
+          {/* <img className="logo h-20 w-20" src="https://image.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg" alt="" /> */}
           <Navbar.Brand href="/">
-            Nav bAr
+            World Tour
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -25,29 +27,32 @@ const Header = () => {
               </Nav.Link>
               {
                 user?.email && <Nav.Link as={Link} to="/order">
-                My Order
-              </Nav.Link>
+                  My Order
+                </Nav.Link>
               }
               {
                 user?.email && <Nav.Link as={Link} to="/createNewEvent">
-                Create New Event
-              </Nav.Link>
+                  Create New Event
+                </Nav.Link>
               }
               {
                 (user?.email) && <Nav.Link as={Link} to="/management">
-                Managment
-              </Nav.Link>
+                  Managment
+                </Nav.Link>
               }
+              {(user?.email) && <Nav.Link as={Link} to="/about">
+                About
+              </Nav.Link>}
             </Nav>
             <div className="">
             </div>
 
             {
               (user?.email) ? <Link to="/login">
-              <button onClick={logOut}>Log out</button>
-            </Link> : <Link to="/login">
-              <button>Login</button>
-            </Link>
+                <button onClick={logOut}>Log out</button>
+              </Link> : <Link to="/login">
+                <button>Login</button>
+              </Link>
             }
 
           </Navbar.Collapse>

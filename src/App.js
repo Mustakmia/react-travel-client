@@ -18,36 +18,40 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-      <Router>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/order">
-            <MyOrder></MyOrder>
-          </Route>
-          <Route path="/management">
-            <Manage/>
-          </Route>
-          <PrivetRoute path="/selected/:id">
-            <Selected/>
-          </PrivetRoute>
-          <Route path="/createNewEvent">
-            <CreateNewEvent></CreateNewEvent>
-          </Route>
-          <Route path="/aboutUs">
-            <About></About>
-          </Route>
-          <Route path="/login">
-            <Login></Login>
-          </Route>
-        </Switch>
-        <Footer></Footer>
-      </Router>
+        <Router>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <Route path="/order">
+              <MyOrder></MyOrder>
+            </Route>
+            <Route path="/management">
+              <Manage />
+            </Route>
+            <Route path="/about">
+              <About />
+            </Route>
+
+            <PrivetRoute path="/selected/:id">
+              <Selected />
+            </PrivetRoute>
+            <Route path="/createNewEvent">
+              <CreateNewEvent></CreateNewEvent>
+            </Route>
+            <Route path="/aboutUs">
+              <About></About>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+          </Switch>
+          <Footer></Footer>
+        </Router>
       </AuthProvider>
     </div>
   );

@@ -1,12 +1,77 @@
-.icon {
-  font-size: 10rem;
+.header {
+  background-image: url("https://www.tearesort.gov.bd/cp/images/slider/304343267_tea-garden%20(1).jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  padding: 80px 50px;
 }
-.card {
-  border: none;
-  box-shadow: 0 0 16px rgb(17 17 26 / 10%);
+.header-title {
+  margin-top: 30px;
+  font-size: 58px;
+  font-style: italic;
+  font-weight: 500;
+  color: white;
 }
-.card-de {
-  border-radius: 20px;
-  padding: 30px 25px;
-  border-radius: 50px 50px 0 0;
+.header-description {
+  font-size: 18px;
+  color: #fff;
+}
+.header-btn {
+  margin-top: 20px;
+}
+.second-sendtion {
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.second-sendtion-title {
+  margin-bottom: 40px;
+}
+.second-sendtion-title::first-letter {
+  font-size: 200%;
+  color:tomato;
+}
+.second-sendtion-desc {
+  font-size: 16px;
+  text-align: justify;
+}
+.about-p{
+  color: tomato;
+  font-size:30px;
+  font-weight: 600;
+}
+
+.second-section-img {
+  margin-top: 60px;
+  text-align: right;
+}
+
+.second-section-img img {
+  width: 100%;
+  margin: auto;
+  margin-left: 30px;
+}
+.expert-1{
+  margin-top: 20px;
+}
+.third-section-title {
+  font-size: 38px;
+}
+.third-section-title::first-letter {
+  font-size: 200%;
+}
+.third-section-title::nth-letter {
+  font-size: 200%;
+}
+
+.third-section-desc {
+  margin-bottom: 80px;
+}
+.expert img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
