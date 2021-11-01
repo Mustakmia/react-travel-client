@@ -1,0 +1,112 @@
+[
+    {
+        "name": "London Meusium",
+        "code": "001",
+        "famous": "World History",
+        "population": "182241",
+        "area": "3430",
+        "country": "London",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://www.britainexpress.com/images/attractions/editor3/Museum-of-London-4266.jpg"
+    },
+    {
+        "name": "Kasmir",
+        "code": "002",
+        "famous": "Narural Beauty",
+        "population": "3605083",
+        "area": "3414",
+        "country": "Pakistan",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Neeulm_Valley_AJK_%28Arang_Kel%29.jpg/250px-Neeulm_Valley_AJK_%28Arang_Kel%29.jpg"
+    },
+    {
+        "name": "Dubay",
+        "code": "003",
+        "famous": "Airport",
+        "population": "987644",
+        "area": "1405",
+        "country": "Dubay",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/02/15/thumbs/800x531/93269.jpg?v=1613378999"
+    },
+    {
+        "name": "Sylet",
+        "code": "004",
+        "famous": "Tea Garden",
+        "population": "300957",
+        "area": "3452",
+        "country": "Bangkadesh",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://www.tearesort.gov.bd/cp/images/slider/304343267_tea-garden%20(1).jpg"
+    },
+    {
+        "name": "America",
+        "code": "005",
+        "famous": "White-House",
+        "population": "388335",
+        "area": "4479",
+        "country": "America",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/288524262.jpg?k=56629a70c0eb9b9628f52a4865a72239a73631998c546977c8d114b6842382da&o="
+    },
+    {
+        "name": "Saudy Arob",
+        "code": "006",
+        "famous": "Macca-Madina",
+        "population": "1000476 ",
+        "area": "3959 ",
+        "country": "Saudy Arob",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://www.shutterstock.com/image-photo/prayer-towaf-circumambulation-muslims-around-al-1114860782"
+    },
+    {
+        "name": "India",
+        "code": "007",
+        "famous": "Taj-Mahal",
+        "population": "700616",
+        "area": "5283",
+        "country": "India",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://th-thumbnailer.cdn-si-edu.com/CbddkFFO3OB80rRz83Iiuf-Z0FY=/1000x750/filters:no_upscale():focal(1471x1061:1472x1062)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/b6/30/b630b48b-7344-4661-9264-186b70531bdc/istock-478831658.jpg"
+    },
+    {
+        "name": "England",
+        "code": "008",
+        "famous": "British Meusium",
+        "population": "200416 ",
+        "area": "1704",
+        "country": "England",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://planetofhotels.com/sites/default/files/britanskiy_muzey-2.jpg"
+    },
+    {
+        "name": "Swizerland",
+        "code": "009",
+        "famous": "Green Valley",
+        "population": "100707",
+        "area": "1900 ",
+        "country": "Swizerland",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://previews.123rf.com/images/photopiano/photopiano1309/photopiano130900017/22126428-beautiful-green-valley-in-the-mountains-seefeld-austrian-town-alp-hiking-in-the-europe-picturesque-l.jpg"
+    },
+    {
+        "name": "Oman",
+        "code": "010",
+        "famous": "Mosque",
+        "population": "1200004",
+        "area": "1464 ",
+        "country": "Oman",
+        "price": "2,00000 Taka",
+        "time": "7 Days",
+        "img": "https://image.shutterstock.com/image-photo/sharjah-new-mosque-largest-dubai-600w-1452039197.jpg"
+    }
+]
