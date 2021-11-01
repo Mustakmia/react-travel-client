@@ -4,6 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="text-center mx-auto">
+      <h1>World Tour</h1>
       <header className="header">
         <h1 className="header-title">Always Choose Good</h1>
         <p className="header-description container">

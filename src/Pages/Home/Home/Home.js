@@ -7,7 +7,6 @@ import './Home'
 const Home = () => {
   return (
     <div>
-      <h1 className="title-1">W<span className="title-2">orld Travel</span></h1>
       <Banner></Banner>
       <TourPackage></TourPackage>
       {/* <About></About> */}

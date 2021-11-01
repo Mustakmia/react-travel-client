@@ -34,7 +34,7 @@ const CreateNewEvent = () => {
   return (
     <div className='bg-warning'>
       <div className="event-title text-white pt-3">
-        <h1 className="fw-bold">Create New Event</h1>
+        <h1 className="fw-bold">Travel New Location</h1>
         <div className="">
           <Form onSubmit={handleEvent} className="w-50 mx-auto">
             <Form.Group className="mb-3 fw-bold" controlId="formGroupText">

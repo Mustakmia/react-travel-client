@@ -4,8 +4,8 @@ const firebaseConfig = {
     projectId: "world-tour-b7fb6",
     storageBucket: "world-tour-b7fb6.appspot.com",
     messagingSenderId: "3856074309",
-    appId: "1:3856074309:web:4605c4a4450e5266b4052c",
-    measurementId: "G-YP36EMB0XL"
+    appId: "1:3856074309:web:e4635dc3442a3ccdb4052c",
+    measurementId: "G-JMHTR8BGVM"
 };
 
 export default firebaseConfig

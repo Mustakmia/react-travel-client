@@ -9,9 +9,10 @@ const Header = () => {
 
   return (
     <div className="mb-5">
-      <Navbar expand="lg ">
+      <Navbar expand="lg" style={{ backgroundColor: 'lightblue' }}>
+        <img style={{ height: '50px', width: '50px' }} src="https://image.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg" alt="" />
         <Container>
-          {/* <img className="logo h-20 w-20" src="https://image.freepik.com/free-vector/detailed-travel-logo_23-2148616611.jpg" alt="" /> */}
+
           <Navbar.Brand href="/">
             World Tour
           </Navbar.Brand>
@@ -40,11 +41,11 @@ const Header = () => {
                   Managment
                 </Nav.Link>
               }
-              {(user?.email) && <Nav.Link as={Link} to="/about">
+              <Nav.Link as={Link} to="/about">
                 About
-              </Nav.Link>}
+              </Nav.Link>
             </Nav>
-            <div className="">
+            <div>
             </div>
 
             {

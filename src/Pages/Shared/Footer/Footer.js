@@ -30,7 +30,7 @@ const Footer = () => {
           <li> <a href="/appoinment">Order</a></li>
           <li> <a href="more/">Up coming service</a></li>
         </ul>
-        <p>@2021 Labaid Hospital | All Rights Reserved.</p>
+        <p>@2021 World Travel | All Rights Reserved.</p>
       </footer>
     </div>
 
