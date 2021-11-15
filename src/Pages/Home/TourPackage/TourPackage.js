@@ -24,7 +24,7 @@ const TourPackage = () => {
             <Container>
               <Row xs={1} md={3} className="g-4">
                 {
-                  packages.map(pack => <Col>
+                  packages.map(pack => <Col key={"id"}>
                     <Card style={{ border: ' 3px solid tomato' }}>
                       <Card.Img
                         style={{ height: '220px' }}
